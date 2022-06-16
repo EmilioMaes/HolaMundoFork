@@ -1,5 +1,5 @@
 
-
+//hola soy daviddd
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -60,7 +60,7 @@ public class HolaMundoSwing extends JFrame implements ActionListener {
 
 		setVisible(true);
 		contador = 0;
-		lblIncrementar.setText("Todavía no se ha pulsado el botón");
+		lblIncrementar.setText("Todavï¿½a no se ha pulsado el botï¿½n");
 
 		chckbxBotones = new JCheckBox("Activar botones");
 		chckbxBotones.setSelected(true);
@@ -70,7 +70,7 @@ public class HolaMundoSwing extends JFrame implements ActionListener {
 		cmbBox = new JComboBox<>();
 		panelPrincipal.add(cmbBox, BorderLayout.EAST);
 
-		String[] opciones = new String[] { "opción1", "opción2", "opción3" };
+		String[] opciones = new String[] { "opciï¿½n1", "opciï¿½n2", "opciï¿½n3" };
 		for (String opcion : opciones) {
 			cmbBox.addItem(opcion);
 		}
@@ -79,7 +79,7 @@ public class HolaMundoSwing extends JFrame implements ActionListener {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 
-				System.out.println("Nueva opción seleccionada: " +
+				System.out.println("Nueva opciï¿½n seleccionada: " +
 						cmbBox.getSelectedItem());
 			}
 		});
